@@ -1,0 +1,223 @@
+.map{
+    position: relative;
+    padding: 70px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    margin: auto;
+    z-index: 1;
+}
+svg {
+     height: 90%;
+    background: #fff;
+    padding: 30px;
+    border-style: solid;
+    border-width: 15px;
+    border-top-color: lighten(#000, 20%);
+    border-right-color: lighten(#000, 0%);
+    border-bottom-color: lighten(#000, 20%);
+    border-left-color: lighten(#000, 0%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
+
+
+}
+.country{
+    margin-top: 60px;
+    margin-left: 75%;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    border: #000 solid 3px;
+    
+}
+.str1 {
+    stroke: #D20001;
+    stroke-width: 0.0523025
+}
+        
+.str2 {
+    stroke: #D20001;
+    stroke-width: 0.0523025;
+    stroke-linecap: round;
+    stroke-linejoin: round
+}
+        
+.str0 {
+    stroke: #F7ADAF;
+    stroke-width: 0.137277
+}
+        
+.fil1 {
+    fill: #8fcaf8
+}
+        
+.fil1:hover {
+    fill: black;
+}
+        
+.fil0 {
+    fill: #24608f
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+
+
+
+#submain h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#submain h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: red;
+    font-weight: 400;
+    text-transform: uppercase;
+    z-index: 10;
+    opacity: .9;
+}
+
+#submain h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#submain p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+.first-character {
+    font-weight: 400;
+    float: left;
+    font-size: 84px;
+    line-height: 64px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.first-character::first-letter{
+    color: #c48660;
+    font-size: 30px;
+
+}
+
+
+
+#submain .title {
+    background: white;
+    padding: 60px;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+#submain .title h1 {
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+#submain .block {
+    background: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#submain .parallax-one {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(test2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#submain .parallax-two {
+    background-image: url(test1.jpg);
+    min-height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+#submain .line-break {
+    border-bottom: 1px solid #c48660;;
+    width: 450px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+    #submain .block {
+        padding: 40px;
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #submain .block {
+        padding: 30px;
+        width: 420px;
+    }
+
+    #submain h2 {
+        font-size: 30px;
+    }
+
+    #submain .block {
+        padding: 30px;
+    }
+
+    #submain .parallax-one,
+    #submain .parallax-two{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #submain .block {
+        padding: 30px 15px;
+        width: 290px;
+    }
+        #submain .line-break {
+            border-bottom: 1px solid #c48660;
+            ;
+            width: 250px;
+            margin: 0 auto;
+        }
+}
